@@ -14,6 +14,8 @@
 		A0B17AC71BB23CCF0006D348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B17AC51BB23CCF0006D348 /* LaunchScreen.storyboard */; };
 		A0B17AD21BB23CCF0006D348 /* sessions_2_hwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B17AD11BB23CCF0006D348 /* sessions_2_hwTests.swift */; };
 		A0B17ADD1BB23CCF0006D348 /* sessions_2_hwUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B17ADC1BB23CCF0006D348 /* sessions_2_hwUITests.swift */; };
+		A0B17AED1BB25C9C0006D348 /* png in Resources */ = {isa = PBXBuildFile; fileRef = A0B17AEC1BB25C9C0006D348 /* png */; settings = {ASSET_TAGS = (); }; };
+		A0CB10D01BB4EAE100529F0A /* ViewControllerAshley.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB10CF1BB4EAE100529F0A /* ViewControllerAshley.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A0B17AD81BB23CCF0006D348 /* sessions-2-hwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sessions-2-hwUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B17ADC1BB23CCF0006D348 /* sessions_2_hwUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessions_2_hwUITests.swift; sourceTree = "<group>"; };
 		A0B17ADE1BB23CCF0006D348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B17AEC1BB25C9C0006D348 /* png */ = {isa = PBXFileReference; lastKnownFileType = folder; path = png; sourceTree = "<group>"; };
+		A0CB10CF1BB4EAE100529F0A /* ViewControllerAshley.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAshley.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		A0B17ABB1BB23CCF0006D348 /* sessions-2-hw */ = {
 			isa = PBXGroup;
 			children = (
+				A0B17AEC1BB25C9C0006D348 /* png */,
 				A0B17ABC1BB23CCF0006D348 /* AppDelegate.swift */,
 				A0B17ABE1BB23CCF0006D348 /* ViewController.swift */,
+				A0CB10CF1BB4EAE100529F0A /* ViewControllerAshley.swift */,
 				A0B17AC01BB23CCF0006D348 /* Main.storyboard */,
 				A0B17AC31BB23CCF0006D348 /* Assets.xcassets */,
 				A0B17AC51BB23CCF0006D348 /* LaunchScreen.storyboard */,
@@ -228,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B17AED1BB25C9C0006D348 /* png in Resources */,
 				A0B17AC71BB23CCF0006D348 /* LaunchScreen.storyboard in Resources */,
 				A0B17AC41BB23CCF0006D348 /* Assets.xcassets in Resources */,
 				A0B17AC21BB23CCF0006D348 /* Main.storyboard in Resources */,
@@ -255,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CB10D01BB4EAE100529F0A /* ViewControllerAshley.swift in Sources */,
 				A0B17ABF1BB23CCF0006D348 /* ViewController.swift in Sources */,
 				A0B17ABD1BB23CCF0006D348 /* AppDelegate.swift in Sources */,
 			);
@@ -481,6 +489,7 @@
 				A0B17AE31BB23CCF0006D348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0B17AE41BB23CCF0006D348 /* Build configuration list for PBXNativeTarget "sessions-2-hwTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				A0B17AE61BB23CCF0006D348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0B17AE71BB23CCF0006D348 /* Build configuration list for PBXNativeTarget "sessions-2-hwUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				A0B17AE91BB23CCF0006D348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
